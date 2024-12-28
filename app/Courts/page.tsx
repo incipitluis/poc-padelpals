@@ -1,9 +1,9 @@
 "use client";
 
-import Navbar from '../components/Navbar';
-import CourtCalendar from '../components/CourtCalendar';
+import Navbar from '../components/navbar';
+import CourtCalendar from '../components/court-calendar';
 import { Card } from "@/components/ui/card";
-import LoadingCourt from '../components/LoadingCourt';
+import LoadingCourt from '../components/loading-court';
 import { useState, useEffect } from 'react';
 
 const Courts = () => {
@@ -15,7 +15,7 @@ const Courts = () => {
       type: "Indoor",
       features: ["Professional lighting", "Competition grade surface", "Climate controlled"],
       pricePerHour: 40,
-      image: "/placeholder.svg"
+      image: "/padel court.jpeg"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Courts = () => {
       type: "Indoor",
       features: ["Training wall", "Basic lighting", "Beginner friendly"],
       pricePerHour: 30,
-      image: "/placeholder.svg"
+      image: "/padel court 2.jpeg"
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const Courts = () => {
       type: "Outdoor",
       features: ["Natural lighting", "Premium surface", "Covered seating area"],
       pricePerHour: 35,
-      image: "/placeholder.svg"
+      image: "/padel court 3.jpeg"
     }
   ];
 

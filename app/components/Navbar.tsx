@@ -30,7 +30,7 @@ const Navbar = () => {
                     <Link href="/equipment">
                       <Button variant="ghost" className={cn("transition-colors", isActive("/equipment") && "bg-primary/10 text-primary")}>Equipment</Button>
                     </Link>
-                    <Link href="/mybookings">
+                    <Link href="/my-bookings">
                       <Button variant="ghost" className={cn("transition-colors", isActive("/bookings") && "bg-primary/10 text-primary")}>My Bookings</Button>
                     </Link>
                     <Button className="bg-primary hover:bg-primary-600">Sign In</Button>
@@ -66,7 +66,7 @@ const Navbar = () => {
               <span>Equipment</span>
             </Link>
             <Link 
-              href="/bookings" 
+              href="/my-bookings" 
               className={cn("flex flex-col items-center justify-center w-full h-full space-y-1 text-sm transition-colors", isActive("/bookings") ? "text-primary" : "text-gray-500 hover:text-primary")}
             >
               <User size={24} />

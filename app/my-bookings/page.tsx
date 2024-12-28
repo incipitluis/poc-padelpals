@@ -2,8 +2,8 @@
 import { Card } from "@/components/ui/card";
 import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from "@/components/ui/table";
 import { useState, useEffect } from 'react';
-import Navbar from "../components/Navbar";
-import LoadingBooking from "../components/LoadingBooking";
+import Navbar from "../components/navbar";
+import LoadingBooking from "../components/loading-bookings";
 
 const MyBookings = () => {
   const [isLoading, setIsLoading] = useState(true);

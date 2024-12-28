@@ -1,9 +1,9 @@
 "use client";
 
 import { Skeleton } from "@/components/ui/skeleton";
-import Navbar from "./components/Navbar";
-import CourtCalendar from "./components/CourtCalendar";
-import EquipmentList from "./components/EquipmentList";
+import Navbar from "./components/navbar";
+import CourtCalendar from "./components/court-calendar";
+import EquipmentList from "./components/equipment-list";
 import { useState, useEffect } from 'react';
 
 // Define the Court type

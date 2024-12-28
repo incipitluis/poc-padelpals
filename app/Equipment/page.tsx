@@ -1,7 +1,7 @@
 "use client";
 
-import Navbar from '../components/Navbar';
-import EquipmentList from '../components/EquipmentList';
+import Navbar from '../components/navbar';
+import EquipmentList from '../components/equipment-list';
 
 const Equipment = () => {
   return (
